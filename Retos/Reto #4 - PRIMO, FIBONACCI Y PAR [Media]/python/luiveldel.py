@@ -26,8 +26,7 @@ class Number:
     def is_fibonacci(self):
         if self.number < 0:
             return False
-        return self.is_perfect_square(5 * self.number * self.number + 4) or self.is_perfect_square(5 * self.number * self.number - 4)
-            
+        return self.is_perfect_square(5 * self.number * self.number + 4) or self.is_perfect_square(5 * self.number * self.number - 4)    
         
     def is_even(self):
         return self.number % 2 == 0
